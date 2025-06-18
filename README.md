@@ -37,50 +37,19 @@ I created this project to:
 
 ---
 
-## ⚙️ Getting Started
+## 🚀 Deployment (Vercel)
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/your-username/movie-app.git
-   cd movie-app
-Install dependencies
+- Add your environment variables in Vercel → Project Settings → Environment Variables  
+- Set **Build Command** to: `npm run build`  
+- Set **Output Directory** to: `dist`
 
-bash
-Copy
-Edit
-npm install
-Setup .env file
+---
 
-env
-Copy
-Edit
-VITE_TMDB_API_KEY=your_tmdb_v4_bearer_token
-VITE_APPWRITE_PROJECT_ID=your_appwrite_project_id
-VITE_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
-VITE_APPWRITE_DATABASE_ID=your_database_id
-VITE_APPWRITE_COLLECTION_ID=your_collection_id
-Run it
+## 🙌 Acknowledgements
 
-bash
-Copy
-Edit
-npm run dev
-🚀 Deployment (Vercel)
-Add your env variables in Vercel → Project Settings → Environment Variables
+- [TMDB API](https://www.themoviedb.org/documentation/api)
+- [Appwrite](https://appwrite.io/)
+- [Vercel](https://vercel.com/)
+- Inspired by real-world movie UIs
 
-Set build command to npm run build
-
-Set output directory to dist
-
-🙌 Acknowledgements
-TMDB API
-
-Appwrite
-
-Vercel
-
-Inspired by real-world movie UIs
-
-👨‍💻 About Me
-Hi! I'm Ashish, a CSE student exploring frontend development and React.
-This project helped me a lot in understanding how components, props, state, effects, and API calls all work together.
+---
